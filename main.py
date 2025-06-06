@@ -3,7 +3,7 @@ from tkinter import scrolledtext, messagebox, font
 from phishing_detector import is_suspicious_url
 from virustotal_api import check_virustotal
 
-API_KEY = "f296ff1f99848fa295a11da6731f80f75ffe300026c025b6b4800d1d3d382c31"
+API_KEY = "  "# your api_key
 
 def analyze_url_gui():
     url = url_entry.get()
